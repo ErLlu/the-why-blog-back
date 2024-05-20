@@ -4,5 +4,9 @@ module.exports = {
   testEnvironment: "node",
   resolver: "jest-ts-webcompat-resolver",
   testMatch: ["**/src/**/*.test.ts"],
-  collectCoverageFrom: ["**/src/**{ts, test.ts}", "!**/index.ts", "!**/app.ts"],
+  collectCoverageFrom: [
+    "**/src/**/**.{ts, test.ts}",
+    "!**src/index.ts",
+    "!**/app.ts",
+  ],
 };
