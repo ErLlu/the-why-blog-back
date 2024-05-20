@@ -9,7 +9,7 @@ const generalError = (
   _next: NextFunction,
 ): void => {
   const statusCode = error.statusCode ?? 500;
-  const errorMessage = error.message ?? "server failed: unknown error";
+  const errorMessage = error.message || "Server failed: Unknown error";
 
   console.log(chalk.red(`${error.message}`));
 
