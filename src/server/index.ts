@@ -1,5 +1,9 @@
+import "dotenv/config";
 import app from "./app.js";
+import chalk from "chalk";
 
-app.listen(4004, () => {
-  console.log("http://localhost:4004");
+const port = process.env.PORT ?? 4004;
+
+app.listen(port, () => {
+  console.log(chalk.green(`http://localhost:${port}`));
 });
