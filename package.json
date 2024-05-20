@@ -2,6 +2,7 @@
   "name": "the-why-blog-back",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
@@ -11,11 +12,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5"
-  },
-  "dependencies": {
+    "prettier": "^3.2.5",
     "@types/lint-staged": "^13.3.0"
   }
 }
