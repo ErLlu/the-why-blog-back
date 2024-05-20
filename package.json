@@ -1,11 +1,14 @@
 {
   "name": "the-why-blog-back",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/js/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build": "tsc",
+    "build:dev": "tsc --watch",
+    "start": "node .",
+    "start:dev": "node --watch ."
   },
   "keywords": [],
   "author": "",
@@ -22,7 +25,13 @@
     "eslint-config-xo-typescript": "^4.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.5"
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "typescript": "^5.4.5",
+    "chalk": "^4.1.2",
+    "express": "^4.19.2"
   }
 }
