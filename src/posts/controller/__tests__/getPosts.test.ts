@@ -9,7 +9,7 @@ describe("Given a PostController getPosts method", () => {
       {
         alternativeText: "",
         author: "",
-        id: "",
+        _id: "",
         title: "",
         date: new Date(),
         content: "",
