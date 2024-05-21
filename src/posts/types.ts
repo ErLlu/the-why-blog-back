@@ -1,5 +1,5 @@
-interface Post {
-  id: string;
+interface PostStructure {
+  _id: string;
   title: string;
   author: string;
   date: Date;
@@ -8,4 +8,4 @@ interface Post {
   alternativeText: string;
 }
 
-export default Post;
+export default PostStructure;
