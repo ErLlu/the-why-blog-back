@@ -1,5 +1,5 @@
 import { type Request, type Response } from "express";
-import PingController from "../PingController";
+import PingController from "./PingController.js";
 
 describe("Given a ping Controller", () => {
   describe("When it receives a response", () => {

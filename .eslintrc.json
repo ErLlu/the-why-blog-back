@@ -7,7 +7,16 @@
   "overrides": [
     {
       "extends": ["xo-typescript", "prettier"],
-      "files": ["*.ts", "*.tsx"]
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/consistent-type-definitions": ["error", "interface"]
+      }
+    },
+    {
+      "files": ["**/src/**/model/*.ts"],
+      "rules": {
+        "@typescript-eslint/naming-convention": "off"
+      }
     }
   ],
   "parserOptions": {
