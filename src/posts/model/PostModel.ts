@@ -1,7 +1,7 @@
-import { Schema } from "mongoose";
-import type Post from "../types";
+import mongoose, { Schema } from "mongoose";
+import type PostStructure from "../types";
 
-const postSchema = new Schema<Post>({
+export const postSchema = new Schema<PostStructure>({
   _id: {
     type: String,
     unique: true,
@@ -36,4 +36,4 @@ const postSchema = new Schema<Post>({
   },
 });
 
-export default postSchema;
+export const PostModel = mongoose.model("Post", postSchema, "Posts");

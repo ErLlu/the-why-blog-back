@@ -1,4 +1,4 @@
-interface Post {
+interface PostStructure {
   _id: string;
   title: string;
   author: string;
@@ -8,4 +8,4 @@ interface Post {
   alternativeText: string;
 }
 
-export default Post;
+export default PostStructure;
