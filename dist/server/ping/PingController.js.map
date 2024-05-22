@@ -1,1 +1,0 @@
-{"version":3,"file":"PingController.js","sourceRoot":"","sources":["../../../src/server/ping/PingController.ts"],"names":[],"mappings":"AAGA,MAAM,cAAc;IAClB,OAAO,CAAC,IAAa,EAAE,GAAa;QAClC,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,OAAO,EAAE,QAAQ,EAAE,CAAC,CAAC;IAC9C,CAAC;CACF;AAED,eAAe,cAAc,CAAC"}

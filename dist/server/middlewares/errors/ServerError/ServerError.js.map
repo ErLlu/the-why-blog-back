@@ -1,1 +1,0 @@
-{"version":3,"file":"ServerError.js","sourceRoot":"","sources":["../../../../../src/server/middlewares/errors/ServerError/ServerError.ts"],"names":[],"mappings":"AAAA,MAAM,WAAY,SAAQ,KAAK;IAGpB;IAFT,YACE,OAAe,EACR,UAAkB;QAEzB,KAAK,CAAC,OAAO,CAAC,CAAC;QAFR,eAAU,GAAV,UAAU,CAAQ;IAG3B,CAAC;CACF;AAED,eAAe,WAAW,CAAC"}
