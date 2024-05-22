@@ -23,11 +23,6 @@
     "ecmaVersion": "latest"
   },
   "rules": {
-    "new-cap": [
-      "error",
-      {
-        "capIsNewExceptions": ["Router"]
-      }
-    ]
+    "new-cap": ["error", { "capIsNewExceptions": ["Router"] }]
   }
 }

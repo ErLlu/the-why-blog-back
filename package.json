@@ -1,7 +1,7 @@
 {
   "name": "the-why-blog-back",
   "version": "1.0.0",
-  "main": "dist/js/index.js",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
