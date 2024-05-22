@@ -8,30 +8,29 @@ export const postSchema = new Schema<PostStructure>({
   },
   title: {
     type: String,
-    require: true,
+    required: true,
     unique: true,
   },
   author: {
     type: String,
-    require: true,
+    required: true,
   },
   date: {
     type: Date,
-    require: true,
+    required: true,
   },
   content: {
     type: String,
-    require: true,
+    required: true,
   },
   imageUrl: {
     type: String,
-    require: false,
     default:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLG2yAn40uYWhENP-hGDrjbBf_K8_FzvaxHnrQ_zeXdQ&s",
   },
   alternativeText: {
     type: String,
-    require: true,
+    required: true,
     default: "un libro abierto",
   },
 });
