@@ -1,0 +1,1 @@
+{"version":3,"file":"notFoundError.js","sourceRoot":"","sources":["../../../../src/server/middlewares/errors/notFoundError.ts"],"names":[],"mappings":"AACA,OAAO,WAAW,MAAM,8BAA8B,CAAC;AAEvD,MAAM,aAAa,GAAG,CACpB,IAAa,EACb,IAAc,EACd,IAAkB,EACZ,EAAE;IACR,MAAM,KAAK,GAAG,IAAI,WAAW,CAAC,oBAAoB,EAAE,GAAG,CAAC,CAAC;IAEzD,IAAI,CAAC,KAAK,CAAC,CAAC;AACd,CAAC,CAAC;AAEF,eAAe,aAAa,CAAC"}
